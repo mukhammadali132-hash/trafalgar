@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 30px 60px; */
+}
+
+.container {
+    max-width: 1440px;
+    margin: 20px auto;
+}
+
+.nav-objects {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-obj {
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.left-hero {
+    width: 440px;
+    height: 293px;
+    border-radius: 55px;
+    text-align: left;
+}
+
+.consult-btn {
+    height: 50px;
+    width: 197px;
+    border-radius: 55px;
+}
+
+.consult-btn:hover {
+    color: white;
+    background-color: #458FF6;
+}
+
+.right-hero {
+    width: 440px;
+    height: 293px;
+    border-radius: 55px;
+}
+
+.right-hero img {
+    width: 100%;
+}
+
+h2 {
+
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.main-section {
+    text-align: center;
+    margin-top: 220px;
+}
+
+.h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: gray;
+}
+
+.card {
+    width: 310px;
+    height: 293px;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    background-color: #E7E7E7;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 1190px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.main-btn {
+    height: 50px;
+    width: 197px;
+    border-radius: 55px;
+}
+
+.main-btn:hover {
+    color: white;
+    background-color: #458FF6;
+}
+
+.text{
+    text-align: center;
+}
+
+.h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.second-card{
+width: 380px;
+height: 516px;
+border-radius: 20px;
+border: none;
+text-align: left;
+padding: 20px;
+color: black;
+font-size: 20px;
+background-color: #E7E7E7;
+}
+
+.second-cards{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 1390px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 0;
+}
+
+.footer{
+    width: 100%;
+    background-color: #458FF6;
+    border: 1px solid black;
+    height: 432px;
+    display: flex;
+    margin: 0 auto  ;
+}
+
+.footer-link{
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.footer-links{
+    list-style: none;
+    color: #E7E7E7;
+        align-items: center;
+        justify-content: center;
+        margin: 67px;
+}
